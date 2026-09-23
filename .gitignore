@@ -78,6 +78,13 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Downloaded corpora and generated RAG artifacts
+# These files are reproducible, large, and may contain token-like strings from
+# upstream documentation. Keep them locally but never commit them.
+data/raw/*
+artifacts/local_checkpoint/*
+!artifacts/local_checkpoint/README.txt
+
 # IPython
 profile_default/
 ipython_config.py

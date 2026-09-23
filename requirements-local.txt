@@ -1,0 +1,13 @@
+numpy>=1.26,<3
+pandas>=2,<4
+pyarrow>=15,<23
+tqdm>=4.66,<5
+sentence-transformers>=3,<6
+datasets>=3,<5
+transformers>=4.45,<6
+accelerate>=1,<2
+pymilvus>=2.5,<3
+milvus-lite>=2.5,<3
+opik==2.2.77
+jupyterlab>=4,<5
+ipykernel>=6,<8
