@@ -6,7 +6,7 @@ The complete implementation and its recorded outputs are contained in [`notebook
 
 ## Architecture
 
-![Domain-Specific RAG architecture](data/domain_based_rag.png)
+![Domain-Specific RAG architecture](data/architecture/domain_specific_rag_architecture.png)
 
 The online query path is:
 
@@ -151,7 +151,8 @@ huggingface-domain-specific-rag/
 |-- notebooks/
 |   `-- domain_specific_rag.ipynb     # Complete implementation and evaluation
 |-- data/
-|   |-- domain_based_rag.png          # Architecture diagram
+|   |-- architecture/
+|   |   `-- domain_specific_rag_architecture.png  # Architecture diagram
 |   `-- raw/                          # Downloaded corpus; ignored by Git
 |-- artifacts/
 |   `-- local_checkpoint/
